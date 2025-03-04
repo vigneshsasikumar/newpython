@@ -1,6 +1,8 @@
-i = 1
-while i < 6:
-  print(i)
-  i += 1
-else:
-  print("i is no longer less than 6")
+#for loop
+
+kungfu = ["punch", "block", "kicks"]
+for x in kungfu:
+  if x == "block":
+    continue
+  print(x)
+  
