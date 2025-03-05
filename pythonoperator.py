@@ -1,60 +1,199 @@
-# input
-#import math
+# Arithmethic operator - Arithmethic operators are used to perform mathematical operations
 
-#first_name = 'sv'
-#food = 'biriyani'
-#email = 'svthemaster@shaolin.com'
+# Addition Operator - It is used to add the values
+# (a + b) command is used to add values
 
-#print('Hello', first_name)
-#print('sv like', food)
-#print('sv email is:', email)
+a = 4
+b = 4
+print(a + b)
 
-#arithmethic operator
-#books = 6
-#books = books + 1
-#books += 1
-#books -= 1
-#books = books * 3
-#books *= 3
-#books = books / 2
-#books /= 2
-#books = books ** 2
-#books **= 2
-#remainder = books % 2
 
-#print(remainder)
+#output
+#8
 
-#x = 2.15
-#y = 4
-#z = 6
+# Subtraction Operator - It is used to subtract the values
+# (c - d) command is used to subtract values
 
-#result = round(x)
-#result = abs(y)
-#result = pow(5, 3)
-#result = max(x, y, z)
-#result = min(x, y, z)
-#print(result)
+c = 4
+d = 2
+print(c - d)
 
-#math
-#print(math.pi)
-#print(math.e)
 
-#x = 9.3
+#output
+#2
 
-#result = math.sqrt(x)
-#result = math.ceil(x)
-#result = math.floor(x)
-#print(result)
 
-#if statement
+# Multiplication Operator - It is used to Multiply the values
+# (e * f) command is used to Multiply values
 
-age = 13
+e = 4
+f = 2
+print(e * f)
 
-if age >= 100:
-    print('you are too old to sign up')
-elif age >= 18:
-    print('your are now signed up!')
-elif age < 0:
-    print('your are not born yet')
-else:
-    print('you must be 18+ to sign up')
+
+#output
+#8
+
+# Division Operator - It is used to Divide the values
+# (g / h) command is used to Divide values
+
+g = 4
+h = 2
+print(g / h)
+
+
+#output
+#2
+
+# Modulus Operator - It will show the remainder 
+# (i % j) command is used to show the remainder
+# Exponentiation operator - It will calculate power of given values
+# (i ** j) - ** denotes power of values
+# Floor Division operator - It will show the quotient
+# (i // j) - // denotes quotient
+
+
+i = 11
+j = 4
+print(i % j)
+print(i ** j)
+print(i // j)
+
+#output
+#3
+#14641
+#2
+
+
+# Assignment Operator - Assignment operator are used to assign values to a variables
+
+#Add
+
+x = 5
+x += 4
+print(x)
+
+#output
+#9
+
+#sub
+
+x = 4
+x -= 2
+print(x)
+
+#output
+#2
+
+#Multiply
+
+x = 2
+x *= 5
+print(x)
+
+#output
+#10
+
+#Divide
+
+x = 2
+x /= 2
+print(x)
+
+#output
+#1.0
+
+#remainder
+
+x = 6
+x %= 3
+print(x)
+
+#output
+#0
+
+#Quotient
+
+x = 8
+x //= 4
+print(x)
+
+#output
+#2
+
+
+# Comparison Operator : It is used to compare two values
+
+#Equal - Compare both values are equal and give the output
+# both values are equal , it will show true
+# both values are not equal, it will show false
+# (a == b) command denotes equal 
+
+a = 3
+b = 2
+c = 3
+print(a == b)
+print(a == c)
+#output
+#False
+#True
+
+#not equal
+# (a != b) command denotes not equal 
+# if a is not equal to b, it will enter true
+
+a = 4
+b = 7
+
+print(a != b)
+
+#output
+# True
+
+# Greater than
+# Less than
+# Greater than or equal to
+# less than or equal to
+
+a = 5
+b = 4
+c = 6
+d = 7
+print(a > b)
+print(a < b)
+print(c >= d)
+print(c <= d)
+
+#output
+# True
+# False
+# False
+# True
+
+
+# Python logical operators - there are 3 operators AND , OR , NOT 
+# AND operator - Only it will return True, when both values are true, If one value is false it will return false
+# OR Operator - it will return True, one value is true itself, only it will return as false both values are false
+# NOT operator  - it is used to reverse the result
+
+# AND operator
+x = 5
+print(x > 6 and x < 7)
+
+#output
+#False
+
+
+# OR operator
+x = 8
+print(x > 6 or x <9)
+
+#output
+#False
+
+# NOT operator
+x = 3
+print(not(x > 4 and x < 8))
+
+#output
+#True
