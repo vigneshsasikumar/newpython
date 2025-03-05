@@ -16,6 +16,10 @@ print(x)
 print(y)
 print(z)
 
+#output
+#4
+#7
+#2
 
 #exammple2 casting Float
 # int() - using this float datatype ->integer,float and string value will convert into float data type.
@@ -29,6 +33,12 @@ print(a)
 print(b)
 print(c)
 
+#output
+#2.0
+#4.3
+#6.0
+
+
 #example3 casting string
 # str() - using this string datatype -> integer,float and string value will convert into str data type.
 
@@ -39,3 +49,8 @@ f = str(4.0)
 print(d) 
 print(e)
 print(f)
+
+#output
+#a2
+#5
+#4.0

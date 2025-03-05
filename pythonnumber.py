@@ -15,6 +15,12 @@ print(type(x))
 print(type(y))
 print(type(z))
 
+#output
+#int
+#float
+#complex
+
+
 #example2 create integers
 # int - int or integer is a whole number, positive or negative  without decimals of unlimited strength
 
@@ -25,6 +31,12 @@ c = -676476
 print(type(a))
 print(type(b))
 print(type(c))
+
+#output
+#int
+#int
+#int
+
 
 #example3 create floating points
 # float - float or floating point is number, positive or negative containing one or two decimals
@@ -43,6 +55,13 @@ print(type(f))
 print(type(g))
 print(type(h))
 
+#output
+#float
+#float
+#float
+#float
+#float
+
 
 
 #example4 create complex numbers
@@ -55,4 +74,10 @@ k = -9j
 print(type(i))
 print(type(j))
 print(type(k))
+
+
+#output
+#complex
+#complex
+#complex
 
