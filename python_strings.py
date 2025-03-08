@@ -82,4 +82,4 @@ print(i)
 
 
 #output
-#'TajMahal'. 'NewDelhi'
+#'TajMahal', 'NewDelhi'

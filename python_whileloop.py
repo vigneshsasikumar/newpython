@@ -59,3 +59,33 @@ while i < 7:
   #5
   #6
   #7
+  
+  
+# write a program to print a even number
+    
+i = 0
+while i <= 11:
+  if i % 2 == 0:
+    print(i)
+  i+=1
+  
+
+# Write a Python Program to Print Even Numbers from 1 to N Using a while-loop
+
+num = int(input("Enter a Number: "))
+i = 0
+while i <= num:
+    if i % 2 == 0:
+      print(i)
+    i+=1
+  
+#Write a Python Program to Print Even Numbers in a given range Using a while-loop
+
+num1 = int(input("Enter a first number: "))
+num2 = int(input("Enter a second number: "))
+
+while i<=num:
+  if i%2 == 0:
+    print(i)
+  i+=1
+  

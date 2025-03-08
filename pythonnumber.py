@@ -1,5 +1,6 @@
 # verify the type of an object
-# x y z has some  values contains int, float and complex, while print this comment it will show what is the type present in it
+# x y z has some  values contains int, float and complex, while print this comment it will
+# show what is the type present in it
 # int - int or integer is a whole number, positive or negative  without decimals of unlimited strength
 # float - float or floating point is number, positive or negative containing one or two decimals
 # float can also be scientific numbers with an "e" to indicate the power of 10

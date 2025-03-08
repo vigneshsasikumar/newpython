@@ -103,3 +103,26 @@ for x in kungfu:
 #kicks rotation
 #kicks attack
 #kicks show
+
+# Write a Python Program to Print Even Numbers from 1 to 20 Using a for-loop
+
+for i in range(0,20):
+  if i % 2 == 0: 
+   print(i)
+
+#Write a Python Program to Print Even Numbers in a given range Using a for-loop
+
+num1 = int(input("Enter a first number: "))
+num2 = int(input("Enter a second number: "))
+
+for i in range(num1, num2+1):
+  if i%2 ==0:
+    print(i)
+    
+
+# Write a Python Program to Print Even Numbers from 1 to N Using a for-loop
+
+num = int(input("Enter a Number: "))
+for i in range(0,num+1):
+  if i % 2 == 0:
+    print(i)

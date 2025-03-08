@@ -53,8 +53,38 @@ for x in thislist:
 
 thislist = ["Shaolin", "Master", "Vignesh"]
 if "Vignesh" in thislist:
- print("yes,'Vignesh' is in the Shaolin Temple India" )
+ print("yes,'Vignesh' is the master of Shaolin Temple India" )
 
 
 #output
-#yes, 'Vignesh is in the Shaolin Temple India'
+#yes, 'Vignesh is the master of Shaolin Temple India'
+
+#print the length of the list
+# len() - denotes how many items a list has
+
+thislist = ["Shaolin", "Master", "Vignesh"]
+print(len(thislist))
+
+#output
+#3
+
+
+# To add an item to the end of the list
+# append() - denotes to add the item in the end of the list
+
+
+thislist = ["Shaolin", "Kungfu", "Master"]
+thislist.append("Vignesh")
+print(thislist)
+
+#output
+#['Shaolin', 'Kungfu', 'Master', 'Vignesh']
+
+
+#add an item at a specified index
+# insert() - command use to add item in a specific index
+
+thislist = ["Shaolin", "Kungfu", "Master"]
+thislist.insert(1, "Vignesh")
+print(thislist)
+
