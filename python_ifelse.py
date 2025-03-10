@@ -97,3 +97,51 @@ if punches > blocks or kicks > punches:
   
   #output
   #punches and kicks are powerful to practice
+
+# factorial of a number
+
+n = int(input())
+
+res = 1
+if n<0:
+  res = 0
+elif n==0 or n==1:
+  res = 1
+else:
+  while n>1:
+    res = res * n
+    n -= 1
+print("factorial is ",res)
+
+#Compare Two Numbers using the else-if statement and output smaller and larger numbers
+
+num1 = int(input("Enter first number: "))
+num2 = int(input("Enter second number: "))
+
+if num1>num2:
+  print(f"Larger number: {num1}")
+  print(f"Smaller number: {num2}")
+  
+elif num1<num2:
+  print(f"Larger number: {num2}")
+  print(f"Smaller number: {num1}")
+
+else:
+  print("Both numbers are equal")
+  
+  
+# Function to check if a year is a leap year
+def is_leap_year(year):
+    if (year % 4 == 0 and year % 100 != 0) or (year % 400 == 0):
+        return True
+    else:
+        return False
+
+# Take input from the user
+year = int(input("Enter a year: "))
+
+# Check and display the result
+if is_leap_year(year):
+    print(f"{year} is a Leap Year.")
+else:
+    print(f"{year} is NOT a Leap Year.")

@@ -29,3 +29,12 @@ num2 = int(input("Enter the second number :"))
 
 Even_range(num1,num2)
 
+
+# find the factorial of a number
+
+def factorial(n):
+    return 1 if (n<=1) else n*factorial(n-1)
+
+n = int(input())
+print(factorial(n))
+
