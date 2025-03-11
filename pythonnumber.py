@@ -82,3 +82,11 @@ print(type(k))
 #complex
 #complex
 
+
+i = 4j
+j = 3j
+k = 2j
+
+print(type(i))
+print(type(j))
+print(type(k))
