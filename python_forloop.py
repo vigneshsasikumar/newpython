@@ -126,3 +126,10 @@ num = int(input("Enter a Number: "))
 for i in range(0,num+1):
   if i % 2 == 0:
     print(i)
+    
+    
+# print the list of even numbers
+
+for i in range(0,20):
+   if i%2 == 0:
+     print(i)
