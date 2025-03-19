@@ -105,7 +105,7 @@ while i<=22:
   
 #simple quiz game
 
-print("welome to my kungfu game! ")
+print("welome to my quiz game! ")
 
 playing = input("Do you want to play? ")
 
@@ -145,3 +145,4 @@ else:
   
 print("you got " + str(score) + " questions correct!")
 print("you got " + str((score / 4) * 100) + "%")
+

@@ -145,3 +145,48 @@ if is_leap_year(year):
     print(f"{year} is a Leap Year.")
 else:
     print(f"{year} is NOT a Leap Year.")
+    
+#simple quiz game
+
+print("welome to my quiz game! ")
+
+playing = input("Do you want to play? ")
+
+if playing.lower() != 'yes':
+  quit()
+  
+print("okay! lets play ")
+score = 0
+
+answer = input("what cpu stands for? ")
+if answer.lower() == "central processing unit":
+  print("correct")
+  score += 1
+else:
+  print("incorrect")
+  
+answer = input("what ram stands for? ")
+if answer.lower() == "random access memory":
+  print("correct")
+  score += 1
+else:
+  print("incorrect")
+  
+answer = input("what gpu stands for? ")
+if answer.lower() == "graphics processing unit":
+  print("correct")
+  score += 1
+else:
+  print("incorrect")
+  
+answer = input("what psu stands for? ")
+if answer.lower() == "power supply":
+  print("correct")
+  score += 1
+else:
+  print("incorrect")
+  
+print("you got " + str(score) + " questions correct!")
+print("you got " + str((score / 4) * 100) + "%")
+
+
